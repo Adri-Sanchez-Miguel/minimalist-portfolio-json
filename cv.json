@@ -1,0 +1,164 @@
+{
+    "basics": {
+        "name": "Adrián Sánchez-Miguel Ortega",
+        "label": "Máster en Ingeniería Informática por la Universidad de Castilla-La Mancha.",
+        "image": "https://avatars.githubusercontent.com/u/72648802?v=4",
+        "email": "adriansandaimiel25@gmail.com",
+        "phone": "(+34) 616-85-72-85",
+        "url": "https://adri-sanchez-miguel.github.io/PortfolioPersonal/",
+        "summary": "Recién graduado en un Máster en Ingeniería Informática. Durante el último año y medio he estado trabajando en un proyecto estatal dentro de un grupo investigador de la Universidad de Castilla-La Mancha. Aunque centrado en la inteligencia artificial en mi último trabajo, mis intereses se centran más en el desarrollo web y el desarrollo de aplicaciones móviles.",
+        "location": {
+            "postalCode": "13250",
+            "city": "Daimiel",
+            "countryCode": "ES",
+            "region": "Ciudad Real"
+        },
+        "profiles": [
+            {
+                "network": "X",
+                "username": "Adrián",
+                "url": "https://x.com/Adrian_SMO_2000"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Adrián Sánchez-Miguel Ortega",
+                "url": "https://www.linkedin.com/in/adrian-sanchez-miguel-ortega-522878205"
+            },
+            {
+                "network": "GitHub",
+                "username": "Adri-Sanchez-Miguel",
+                "url": "https://github.com/Adri-Sanchez-Miguel"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "MAmI Research Lab",
+            "position": "Personal de Apoyo a la Investigación",
+            "url": "https://mamilab.eu/",
+            "startDate": "2023-03-01",
+            "endDate": "2024-06-31",
+            "summary": "Apoyo en la implementación y despliegue de soluciones software destinadas a mejora de la calidad de vida y análisis de actividades de la vida diaria mediante el uso de dispositivos comerciales conectados y usos de algoritmos de aprendizaje supervisado y no supervisado."
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Resicla y Ayuda",
+            "position": "Volluntario",
+            "url": "https://www.ondacero.es/emisoras/castilla-la-mancha/ciudad-real/noticias/ informaticaciudad-real-dona-1112-euros-cruz-roja-damnificados-volcanpalma_2022092963357649cff9ff000135216c.html",
+            "startDate": "2022-02-22",
+            "endDate": "2022-06-31",
+            "summary": "Rastrillo solidario organizado por la Escuela Superior Informática con el objetivo de recaudar fondos para la isla de La Palma, que sufrió una erupción volcánica el 19 de septiembre de 2021."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad de Castilla-La Mancha",
+            "url": "https://www.uclm.es/",
+            "area": "Ingeniería Informática",
+            "studyType": "Grado",
+            "startDate": "2018-09-03",
+            "endDate": "2022-12-14",
+            "score": "9,5"
+        },
+        {
+            "institution": "Universidad de Castilla-La Mancha",
+            "url": "https://www.uclm.es/",
+            "area": "Ingeniería Informática",
+            "studyType": "Máster",
+            "startDate": "2022-09-22",
+            "endDate": "2024-07-17",
+            "score": "10"
+        }
+    ],
+    "awards": [
+        {
+            "title": "2º puesto Hackaton 2022",
+            "date": "2022-10-27",
+            "awarder": "Escuela Superior de Informática, UCLM",
+            "summary": "En esta competición se ponen a prueba las competencias informáticas de los alumnos de la Escuela Superior de Informática a través de la resolución de una serie de retos informáticos, los cuales al ser resueltos mediante la programación otorgan punto a los participantes."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Mejora de la implicación y adherencia en programas de mentorización mediante gamificación.",
+            "publisher": "Asociación de Enseñantes Universitarios de la Informática (AENUI)",
+            "releaseDate": "2023-07-07",
+            "url": "https://rua.ua.es/dspace/handle/10045/137225",
+            "summary": "Entre los aspectos fundamentales para el éxito académico en niveles superiores se encuentra la adecuada integración en la universidad, aspecto especialmente crítico en el primer año. Los programas de mentorización, donde una persona experta o con más experiencia en un ámbito (estudiantes de cursos superiores) aconseja y acompaña a una inexperta en una experiencia nueva (estudiantes de nuevo ingreso) han dado resultados de éxito en lo referente a la integración de los nuevos estudiantes. Sin embargo, también se ha demostrado que la participación en estos programas no es mayoritaria y existe un gran abandono y falta de participación. Se plantea la hipótesis de que gamificar la participación en el programa mejorará esta implicación de los participantes y la adherencia prolongada. La contribución se basa en una aplicación para dispositivos móviles, con características de red social, donde los objetivos esperados (académicos y sociales) para cada participante (profesores, mentores y mentorizados) se transforma en retos que permiten alcanzar logros y conseguir recompensas en la aplicación. El impacto directo comprobado en este artículo es la mejora de la experiencia de los participantes, así como una mayor implicación."
+        },
+        {
+            "name": "Towards Abnormal Behaviour Detection on Elderly People at Home Through Smart Plugs and Its Relationship with Activities of Daily Living",
+            "publisher": "Springer Nature Switzerland",
+            "releaseDate": "2023-11-25",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-031-48306-6_12",
+            "summary": "La población mayor está aumentando y ello contribuye significativamente a la saturación de los servicios sanitarios públicos. En la actualidad, un número cada vez mayor de personas mayores viven solas en casa, y esperan vivir de forma independiente durante más tiempo sin ayuda de cuidadores u otras personas, o al menos con el mínimo de ayuda. El desempeño de las actividades de la vida diaria puede medirse en personas mayores mediante diversas pruebas y técnicas según la bibliografía, lo que nos proporciona una herramienta útil para detectar problemas de salud relacionados con los niveles de independencia, que podrían derivar en problemas mayores. La integración de las nuevas tecnologías en el hogar podría ayudar a los cuidadores y expertos a detectar comportamientos anómalos cuando las personas realizan determinadas actividades, catalogadas como actividades básicas y/o instrumentales de la vida diaria. Los dispositivos conectados, junto con el análisis de datos, pueden utilizarse para llevar a cabo esta tarea. Este artículo describe una propuesta para monitorizar las mediciones de carga mediante enchufes inteligentes conectados a aparatos distribuidos en un entorno doméstico, con el fin de detectar actividades específicas de la vida diaria. Se ha entrenado una red neuronal recurrente basada en series temporales previamente adquiridas, procedentes de dicha monitorización, enmarcadas en diferentes periodos de tiempo. Los resultados preliminares de este trabajo presentan cómo sería posible detectar y asociar algunas tareas en el hogar con actividades de la vida diaria, generando patrones de actividad y, por tanto, pudiendo detectar comportamientos anómalos para actuar convenientemente con el objetivo de aumentar  la calidad de vida de las personas mayores en su domicilio."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Desarrollo Web",
+            "level": "Básico",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React"
+            ]
+        },
+        {
+            "name": "Desarrollo de Aplicaciones Móviles",
+            "level": "Intermedio",
+            "keywords": [
+                "Android",
+                "iOS",
+                "Flutter",
+                "Java"
+            ]
+        },
+        {
+            "name": "Manejo de Bases de datos",
+            "level": "Intermedio",
+            "keywords": [
+                "NoSQL: MongoDB, Firebase",
+                "SQL: MySQL"
+            ]
+        },
+        {
+            "name": "Inteligencia Artificial",
+            "level": "Intermedio",
+            "keywords": [
+                "Machine Learning",
+                "Python"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Inglés",
+            "fluency": "C1"
+        }
+    ],
+    "references": [
+        {
+            "name": "Ramón Hervás",
+            "reference": "Referenccia al archivo"
+        }
+    ],
+    "projects": [
+        {
+            "name": "TAICare",
+            "startDate": "2023-01-01",
+            "endDate": "2024-12-31",
+            "url": "https://mamilab.eu/taicare/",
+            "description": "Proyecto estatal para la prestación de cuidados de larga duración a personas mayores a domicilio para mejorar su calidad de vida y la de sus cuidadores, haciendo uso de tecnologías innovadoras sostenibles y procedimientos inteligentes."
+        },
+        {
+            "name": "Menthor",
+            "startDate": "2021-10-1",
+            "endDate": "2022-12-14",
+            "url": "https://github.com/Adri-Sanchez-Miguel/esi_tfg_app",
+            "description": "Aplicación móvil multiplataforma para la mentorización de alumnos de nuevo ingreso en la Escuela Superior de Informática de la UCLM por parte de alumnos veteranos, como parte de mi Trabajo Fin de Grado."
+        }
+    ]
+}

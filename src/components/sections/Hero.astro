@@ -1,0 +1,144 @@
+---
+import { basics } from '@cv';
+import Section from '@/components/Section.astro';
+import Mail from '@/icons/Mail.astro';
+import Phone from '@/icons/Phone.astro';
+import X from '@/icons/X.astro';
+import LinkedIn from '@/icons/LinkedIn.astro';
+import GitHub from '@/icons/GitHub.astro';
+import WorldMap from '@/icons/WorldMap.astro';
+
+const { name, label, image, location, profiles, phone, email } = basics;
+const { city, region } = location;
+
+const SOCIAL_ICONS: Record<string, any> = {
+    GitHub,
+    LinkedIn,
+    X,
+}
+
+const linkedInfo = profiles.find(({ network }) => network === 'LinkedIn');
+const printInfo = [email, phone, linkedInfo?.url].filter(Boolean).join(' · ');
+---
+
+<Section>
+    <div class="container">
+        <div class="info">
+            <h1>{name}</h1>
+            <h2>{label}</h2>
+            <span><WorldMap />{city}, {region}</span>
+            <footer class="print">
+                {printInfo}
+            </footer>
+            <footer class="no-print">
+                {
+                    email && (
+                        <a 
+                            href={`mailto:${email}`}
+                            title={'Enviar un correo electrónico a ${name} al correo ${email}'}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        ><Mail />
+                        </a>
+                    )
+                }
+                {
+                    email && (
+                        <a 
+                            href={`tel:${phone}`}
+                            title={'Lllamar por teléfono a ${name} al número ${phone}'}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        ><Phone />
+                        </a>
+                    )
+                }
+                {
+                    profiles.map(({ network, url }) => {
+                        const Icon = SOCIAL_ICONS[network];
+                        
+                        return (
+                            <a 
+                                href={url}
+                                title={`Visitar el perfil de ${name} de ${network}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Icon />
+                            </a>
+                        )
+                    })
+                }
+            </footer>
+        </div>
+        <figure>
+            <img src={image} alt={name} />
+        </figure>
+    </div>
+
+</Section>
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-right: 32px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-wrap: balance;
+        color: #444;
+    }
+
+    img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        width: 130px;
+        border-radius: 12px;
+        border: 1px solid #666;
+    }
+
+    span {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        color: #666;
+        font-size: 0.85rem;
+        letter-spacing: -0.05rem;
+    }
+
+    footer {
+        color: #666;
+        font-size: 0.85rem;
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 8px;
+    }
+
+    footer a {
+        color: #666;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #f5f5f5;
+        transition: background-color 0.2s;
+    }
+</style>
