@@ -36,8 +36,8 @@
             "name": "MAmI Research Lab",
             "position": "Personal de Apoyo a la Investigación",
             "url": "https://mamilab.eu/",
-            "startDate": "2023-03-01",
-            "endDate": "2024-06-31",
+            "startDate": "Marzo 2023",
+            "endDate": "Junio 2024",
             "summary": "Apoyo en la implementación y despliegue de soluciones software destinadas a mejora de la calidad de vida y análisis de actividades de la vida diaria mediante el uso de dispositivos comerciales conectados y usos de algoritmos de aprendizaje supervisado y no supervisado."
         }
     ],
@@ -46,8 +46,8 @@
             "organization": "Resicla y Ayuda",
             "position": "Volluntario",
             "url": "https://www.ondacero.es/emisoras/castilla-la-mancha/ciudad-real/noticias/ informaticaciudad-real-dona-1112-euros-cruz-roja-damnificados-volcanpalma_2022092963357649cff9ff000135216c.html",
-            "startDate": "2022-02-22",
-            "endDate": "2022-06-31",
+            "startDate": "Febrero 2022",
+            "endDate": "Junio 2022",
             "summary": "Rastrillo solidario organizado por la Escuela Superior Informática con el objetivo de recaudar fondos para la isla de La Palma, que sufrió una erupción volcánica el 19 de septiembre de 2021."
         }
     ],
@@ -57,24 +57,24 @@
             "url": "https://www.uclm.es/",
             "area": "Ingeniería Informática",
             "studyType": "Grado",
-            "startDate": "2018-09-03",
-            "endDate": "2022-12-14",
-            "score": "9,5"
+            "startDate": "Septiembre 2018",
+            "endDate": "Diciembre 2022",
+            "score": "Nota de 9,5 en el Trabajo Fin de Grado"
         },
         {
             "institution": "Universidad de Castilla-La Mancha",
             "url": "https://www.uclm.es/",
             "area": "Ingeniería Informática",
             "studyType": "Máster",
-            "startDate": "2022-09-22",
-            "endDate": "2024-07-17",
-            "score": "10"
+            "startDate": "Septiembre 2022",
+            "endDate": "Julio 2024",
+            "score": "Matrícula de Honor en Desarrollo de Sistemas Inteligentes y propuesta a Matrícula de Honor en el Trabajo Fin de Máster"
         }
     ],
     "awards": [
         {
             "title": "2º puesto Hackaton 2022",
-            "date": "2022-10-27",
+            "date": "Octubre 2022",
             "awarder": "Escuela Superior de Informática, UCLM",
             "summary": "En esta competición se ponen a prueba las competencias informáticas de los alumnos de la Escuela Superior de Informática a través de la resolución de una serie de retos informáticos, los cuales al ser resueltos mediante la programación otorgan punto a los participantes."
         }
@@ -83,14 +83,14 @@
         {
             "name": "Mejora de la implicación y adherencia en programas de mentorización mediante gamificación.",
             "publisher": "Asociación de Enseñantes Universitarios de la Informática (AENUI)",
-            "releaseDate": "2023-07-07",
+            "releaseDate": "Julio 2023",
             "url": "https://rua.ua.es/dspace/handle/10045/137225",
             "summary": "Entre los aspectos fundamentales para el éxito académico en niveles superiores se encuentra la adecuada integración en la universidad, aspecto especialmente crítico en el primer año. Los programas de mentorización, donde una persona experta o con más experiencia en un ámbito (estudiantes de cursos superiores) aconseja y acompaña a una inexperta en una experiencia nueva (estudiantes de nuevo ingreso) han dado resultados de éxito en lo referente a la integración de los nuevos estudiantes. Sin embargo, también se ha demostrado que la participación en estos programas no es mayoritaria y existe un gran abandono y falta de participación. Se plantea la hipótesis de que gamificar la participación en el programa mejorará esta implicación de los participantes y la adherencia prolongada. La contribución se basa en una aplicación para dispositivos móviles, con características de red social, donde los objetivos esperados (académicos y sociales) para cada participante (profesores, mentores y mentorizados) se transforma en retos que permiten alcanzar logros y conseguir recompensas en la aplicación. El impacto directo comprobado en este artículo es la mejora de la experiencia de los participantes, así como una mayor implicación."
         },
         {
             "name": "Towards Abnormal Behaviour Detection on Elderly People at Home Through Smart Plugs and Its Relationship with Activities of Daily Living",
             "publisher": "Springer Nature Switzerland",
-            "releaseDate": "2023-11-25",
+            "releaseDate": "Noviembre 2023",
             "url": "https://link.springer.com/chapter/10.1007/978-3-031-48306-6_12",
             "summary": "La población mayor está aumentando y ello contribuye significativamente a la saturación de los servicios sanitarios públicos. En la actualidad, un número cada vez mayor de personas mayores viven solas en casa, y esperan vivir de forma independiente durante más tiempo sin ayuda de cuidadores u otras personas, o al menos con el mínimo de ayuda. El desempeño de las actividades de la vida diaria puede medirse en personas mayores mediante diversas pruebas y técnicas según la bibliografía, lo que nos proporciona una herramienta útil para detectar problemas de salud relacionados con los niveles de independencia, que podrían derivar en problemas mayores. La integración de las nuevas tecnologías en el hogar podría ayudar a los cuidadores y expertos a detectar comportamientos anómalos cuando las personas realizan determinadas actividades, catalogadas como actividades básicas y/o instrumentales de la vida diaria. Los dispositivos conectados, junto con el análisis de datos, pueden utilizarse para llevar a cabo esta tarea. Este artículo describe una propuesta para monitorizar las mediciones de carga mediante enchufes inteligentes conectados a aparatos distribuidos en un entorno doméstico, con el fin de detectar actividades específicas de la vida diaria. Se ha entrenado una red neuronal recurrente basada en series temporales previamente adquiridas, procedentes de dicha monitorización, enmarcadas en diferentes periodos de tiempo. Los resultados preliminares de este trabajo presentan cómo sería posible detectar y asociar algunas tareas en el hogar con actividades de la vida diaria, generando patrones de actividad y, por tanto, pudiendo detectar comportamientos anómalos para actuar convenientemente con el objetivo de aumentar  la calidad de vida de las personas mayores en su domicilio."
         }
@@ -129,34 +129,42 @@
             "level": "Intermedio",
             "keywords": [
                 "Machine Learning",
-                "Python"
+                "Python",
+                "TensorFlow"
             ]
         }
     ],
     "languages": [
         {
             "language": "Inglés",
-            "fluency": "C1"
+            "fluency": "C1",
+            "highlights": "Grado B (198/210), por Camnbridge English Language Assessment"
+        },
+        {
+            "language": "Francés",
+            "fluency": "Básico",
+            "highlights": "Educación Secundaria Obligatoria en modalidad bilingüe hispano-francesa"
         }
     ],
     "references": [
         {
-            "name": "Ramón Hervás",
-            "reference": "Referenccia al archivo"
+            "name": "Dr. Ramón Hervás",
+            "description": "Profesor Titular de Informática en el Departamento de Tecnologías y Sistemas de la Información de la Universidad de Castilla-La Mancha (UCLM), España, y miembro del Grupo de Investigación Modelling Ambient Intelligence (MAmI). Se licenció y doctoró en Ingeniería Informática por la UCLM.",
+            "url": "https://drive.google.com/file/d/10oyqNOIeaEFeAHE84fhcF4yRaUS9hPrI/view?usp=sharing"
         }
     ],
     "projects": [
         {
             "name": "TAICare",
-            "startDate": "2023-01-01",
-            "endDate": "2024-12-31",
+            "startDate": "Enero 2023",
+            "endDate": "Diciembre 2024",
             "url": "https://mamilab.eu/taicare/",
             "description": "Proyecto estatal para la prestación de cuidados de larga duración a personas mayores a domicilio para mejorar su calidad de vida y la de sus cuidadores, haciendo uso de tecnologías innovadoras sostenibles y procedimientos inteligentes."
         },
         {
             "name": "Menthor",
-            "startDate": "2021-10-1",
-            "endDate": "2022-12-14",
+            "startDate": "Octubre 2021",
+            "endDate": "Diciembre 2022",
             "url": "https://github.com/Adri-Sanchez-Miguel/esi_tfg_app",
             "description": "Aplicación móvil multiplataforma para la mentorización de alumnos de nuevo ingreso en la Escuela Superior de Informática de la UCLM por parte de alumnos veteranos, como parte de mi Trabajo Fin de Grado."
         }

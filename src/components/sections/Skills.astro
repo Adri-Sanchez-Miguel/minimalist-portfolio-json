@@ -10,9 +10,9 @@ import {skills} from "@cv";
             <li>
                 <h3>{name}</h3>
                 <p>{level}</p>
-                <ul>
+                <ul class="intern">
                     {keywords.map((keyword) => (
-                        <li class="intern">{keyword}</li>
+                        <li class="highlight">{keyword}</li>
                     ))}
                 </ul>
             </li>
@@ -22,6 +22,12 @@ import {skills} from "@cv";
 
 <style>
     ul {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    ul .intern {
         display: inline-flex;
         gap: 8px;
         flex-wrap: wrap;
@@ -39,9 +45,10 @@ import {skills} from "@cv";
         width: fit-content;
     }
 
-    ul .intern {
+    li .highlight {
         background-color: #ddd;
         color: #333;
         font-family: Menlo, Monaco, Lucida Console, 'Courier New', Courier, monospace;
+        border-radius: 6px;
     }
 </style>

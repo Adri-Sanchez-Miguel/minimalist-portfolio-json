@@ -1,21 +1,21 @@
 ---
 import Section from '@/components/Section.astro';
 
-import {education} from "@cv";
+import {volunteer} from "@cv";
 ---
 
-<Section title="Educación">
+<Section title="Voluntariado">
     <ul>
-        {education.map(({ institution, area, studyType, startDate, endDate, score }) => {
+        {volunteer.map(({ organization, position, url, startDate, endDate, summary }) => {
 
             return (
                 <li>
                     <article>
                         <header>
-                            <h3>{studyType} en {area}</h3>
-                            <h4>{institution}</h4>
-                            <p>{score}</p>
-                            <p>{startDate} · {endDate}</p>
+                            <h3>{organization}</h3>
+                            <h4>{position}</h4>
+                            <p>{startDate} · {endDate}</p> 
+                            <p>{summary}</p>
                         </header>
                     </article>
                 </li>
@@ -24,7 +24,7 @@ import {education} from "@cv";
     </ul>
 </Section>
 
-<style>
+<style> 
     ul {
         display: grid;
         gap: 1rem;
@@ -42,10 +42,7 @@ import {education} from "@cv";
     }
 
     header {
-        border-radius: 8px;
-        border: 2px solid #f2f2f2;
         gap: 8px;
-        padding: 8px;
         display: flex;
         flex-direction: column;
         height: 100%;

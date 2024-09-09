@@ -1,0 +1,55 @@
+---
+import Section from '@/components/Section.astro';
+
+import {languages} from "@cv";
+---
+
+<Section title="Idiomas">
+    <ul>
+        {languages.map(({ language, fluency, highlights }) => {
+
+            return (
+                <li>
+                    <article>
+                        <header>
+                            <h3>{language}</h3>
+                            <h4>{fluency}</h4>
+                            <p>{highlights}</p>
+                        </header>
+                    </article>
+                </li>
+            )
+        })}
+</Section>
+
+<style>
+    ul {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    article {
+        border-radius: 8px;
+        border: 1px solid #f2f2f2;
+        gap: 16px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    article header {
+        flex: 1;
+    }
+
+    article a {
+        color: #111;
+    }
+
+    article p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        margin-bottom: 4px;
+    }
+</style>
