@@ -14,7 +14,11 @@ import {references} from "@cv";
                         <header>
                             <h3>{name}</h3>
                             <p>{description}</p>
-                            <a href={url} class="button">Carta de recomendación</a>                        </header>
+                            <a href={url} class="button no-print">Carta de recomendación</a>
+                            <p class="print dark">
+                                {url}
+                            </p>                        
+                        </header>
                     </article>
                 </li>
             )
@@ -28,7 +32,13 @@ import {references} from "@cv";
         line-height: 1.3rem;
         margin-bottom: 10px;
         margin-top: 10px;
+        text-align: justify;
     }
+
+    .dark {
+        color:#333;
+    }
+
     .button {
         display: inline-block;
         padding: 12px 24px;

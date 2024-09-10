@@ -16,6 +16,7 @@ import {volunteer} from "@cv";
                             <h4>{position}</h4>
                             <p>{startDate} · {endDate}</p> 
                             <p>{summary}</p>
+                            <a href={url}>{url}</a>
                         </header>
                     </article>
                 </li>
@@ -34,6 +35,12 @@ import {volunteer} from "@cv";
     article h3 {
         font-weight: 700;
         color: #111;
+    }
+
+    article a {
+        padding-top: 4px;
+        color: #444;
+        text-decoration: none;
     }
 
     article h4 {

@@ -44,7 +44,7 @@
     "volunteer": [
         {
             "organization": "Resicla y Ayuda",
-            "position": "Volluntario",
+            "position": "Voluntario",
             "url": "https://www.ondacero.es/emisoras/castilla-la-mancha/ciudad-real/noticias/ informaticaciudad-real-dona-1112-euros-cruz-roja-damnificados-volcanpalma_2022092963357649cff9ff000135216c.html",
             "startDate": "Febrero 2022",
             "endDate": "Junio 2022",
@@ -107,6 +107,15 @@
             ]
         },
         {
+            "name": "Inteligencia Artificial",
+            "level": "Intermedio",
+            "keywords": [
+                "Machine Learning",
+                "Python",
+                "TensorFlow"
+            ]
+        },
+        {
             "name": "Desarrollo de Aplicaciones Móviles",
             "level": "Intermedio",
             "keywords": [
@@ -122,15 +131,6 @@
             "keywords": [
                 "NoSQL: MongoDB, Firebase",
                 "SQL: MySQL"
-            ]
-        },
-        {
-            "name": "Inteligencia Artificial",
-            "level": "Intermedio",
-            "keywords": [
-                "Machine Learning",
-                "Python",
-                "TensorFlow"
             ]
         }
     ],
