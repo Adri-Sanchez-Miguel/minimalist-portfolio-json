@@ -6,7 +6,7 @@
         "email": "adriansandaimiel25@gmail.com",
         "phone": "(+34) 616-85-72-85",
         "url": "https://adri-sanchez-miguel.github.io/PortfolioPersonal/",
-        "summary": "Recién graduado en un Máster en Ingeniería Informática. Durante el último año y medio he estado trabajando en un proyecto estatal dentro de un grupo investigador de la Universidad de Castilla-La Mancha. Aunque centrado en la inteligencia artificial en mi último trabajo, mis intereses se centran más en el desarrollo web y el desarrollo de aplicaciones móviles.",
+        "summary": "Graduado en un Máster en Ingeniería Informática. Trabajando como ingeniero QA en DocPath comprobando que los diferentes productos y servicios del equipo al que estoy asignado cumplen con los requisitos básicos de calidad y salen a producción sin errores. También trabajé durante un año y medio en un proyecto estatal dentro de un grupo investigador de la Universidad de Castilla-La Mancha. Aunque centrado en la inteligencia artificial en mi penúltimo trabajo, y la calidad en el último, mis intereses se centran más en el desarrollo web y el desarrollo de aplicaciones móviles.",
         "location": {
             "postalCode": "13250",
             "city": "Daimiel",
@@ -39,6 +39,14 @@
             "startDate": "Marzo 2023",
             "endDate": "Junio 2024",
             "summary": "Apoyo en la implementación y despliegue de soluciones software destinadas a mejora de la calidad de vida y análisis de actividades de la vida diaria mediante el uso de dispositivos comerciales conectados y usos de algoritmos de aprendizaje supervisado y no supervisado."
+        },
+        {
+            "name": "DocPath",
+            "position": "Ingeniero QA",
+            "url": "https://docpath.com/",
+            "startDate": "Octubre 2024",
+            "endDate": "Actualidad",
+            "summary": "Control de calidad de código a través de herramientas de testing de integración web como Cypress o Cucumber y utilizando herramientas de automatización para este control como Jenkins. También se realizan controles de rendimiento y carga."
         }
     ],
     "volunteer": [
